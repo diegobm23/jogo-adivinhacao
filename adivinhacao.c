@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-int main() {
+void mostrarBoasVindas() {
   printf("\n\n");
   printf("          P  /_\\  P                              \n");
   printf("         /_\\_|_|_/_\\                            \n");
@@ -12,6 +12,10 @@ int main() {
   printf("    |_____| ' _ ' |_____|                         \n");
   printf("          \\__|_|__/                              \n");
   printf("\n\n");
+}
+
+int main() {
+  mostrarBoasVindas();
 
   int segundos = time(0);
   srand(segundos);
